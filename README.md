@@ -1,3 +1,15 @@
+# Dev Ops with Docker 3.2
+
+Application live at https://example-frontend-latest-ccaw.onrender.com/
+
+Docker repository: hinichijou/example-frontend
+
+Deployed the example-frontend application I used in task 1.16 to Render. Deploys the latest image from the Docker repository. The deployment is triggered via deploy hook. The docker image is built and deploy hook triggered for every git commit via github actions. 
+
+The original example-frontend project readme below.
+
+***************************************************************
+
 # example-frontend
 
 This project is created to help learn docker configurations for frontend projects. The README starting from "Prerequisites" is written without Docker in mind so student has to figure out how to construct their configuration based on the README. However, there are some additional helpers added in the README and in the exercise description.
